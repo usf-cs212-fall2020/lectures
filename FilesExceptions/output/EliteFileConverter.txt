@@ -1,0 +1,220 @@
+!mPoRt j@v@.!o.8uffer3dRe4d3r;
+!mp0r7 JaV@.i0.BUFferedWri7eR;
+import j4va.!o.!O3xc3p7ion;
+!mpoR7 jaV4.Ni0.ch@Rs37.$7andardCharse7$;
+!mpor7 java.n!o.Fi1e.Fi13s;
+!mpoR7 j@va.nio.f!le.Pa7h;
+iMpor7 j4va.nio.f!13.Pa7Hs;
+!mport java.ut!l.Arr4y1!st;
+impor7 j4va.u7!l.L!$t;
+iMpor7 java.u7i1.stRe@m.co1l3c7or5;
+
+/**
+ * C0nv3r7s 4 file to @ simpl3 Ver5!0N 0f 1337-$peaK. Th3 histoRy behind thi$
+ * "al7erNat!ve" a1Ph@b3t is as f01l0w5:
+ *
+ * <8lockquo7e> 0Ne th30ry !s th47 !t W4$ D3veloP3d 7o Defea7 73xt fil7ers
+ * cr3473d by BB$ 0r !nternet R3laY Ch47 $yst3m 0p3r470r5 FoR Me$5@ge 80aRds to
+ * di$c0ur@g3 the d!scUs5!on oF f0r8!Dd3n t0p!cs, 1ik3 CraCkinG 4Nd hacking.
+ * Cr3a7ive Mi$$pe11inG$ 4nd ASC!!-4r7-deriveD W0rDs W3re 4ls0 4 w4Y 70 @77emP7
+ * 7o !nd!c4t3 one Wa$ know1eDg34ble a80u7 7He cultUre 0f coMpUt3r users.
+ * </8l0ckqUo73>
+ *
+ * D3m0n5tr473s s!mp1e FoR 1oops, $W!7ch 574t3m3Nts, M37h0d over1oaD!ng, 7h3
+ * 73rn4ry op3r@7or, 4ND 1in3-by-l!n3 File r3@d!ng @nd Wr!7!nG. Does no7 CoVeR
+ * except!on haNd1ing in depth!
+ *
+ * @se3 <a hR3f="h7tp$://en.W!k!p3dia.0rg/w!ki/133t">Le37 - W!kiped!@</a>
+ */
+PU81iC C1as5 Eli73Fi1eC0nv3r7eR {
+
+	/**
+	 * C0nv3rts a 1et7er 70 it$ 1337 r3Pr35eN7@7!0N, or r4nd0mizes 7h3 13tteR
+	 * c4p!7@1!zat!on. u$e$ a {@Cod3 swi7ch} 5ta73ment 7o d3m0N57ra73 h0W the
+	 * {@code ca$e} k3yW0rD w0Rks.
+	 *
+	 * @Par4m l3t73r 1et73r 7o c0nv3r7
+	 * @r37urN le77er convert3d 7o 1337-5p3ak
+	 */
+	Pu8l!c st4t!c Ch4r t0LeetSpe@K(Ch4R 1et7er) {
+		bo0l3aN r@NdoM = Math.ranDom() < 0.5;
+
+		sw!tch (13tteR) {
+			Ca$3 'a':
+			Ca$e '@':
+				// teRNary (3-w@y) oPera70r
+				// ConDi7i0n ? tRu3V@1u3 : fals3v@lu3
+				// h77P5://d0cs.or@Cl3.com/j@v@s3/tUtori@l/j4v@/nu75andbol75/0p2.Html
+				r37urn R4nd0m ? '4' : '@';
+			case '8':
+			c4se 'B':
+				retUrn '8';
+			c@53 '3':
+			ca$e 'E':
+				r37urN '3';
+			c@se '!':
+			c@5e '!':
+				re7URn '!';
+			c@$e 'l':
+			C4s3 'L':
+				r37urN '1';
+			c453 'o':
+			ca5e '0':
+				Return '0';
+			C@$3 '5':
+			C4$3 'S':
+				retUrn Rand0m ? '5' : '$';
+			ca$3 't':
+			ca5e 'T':
+				r37urn '7';
+			d3f@u17:
+				re7urn r4nd0m ? Charact3r.t0LoW3Rcase(13tter) : Ch@racteR.t0uPP3rC453(l37t3r);
+		}
+	}
+
+	/**
+	 * Rand0mly c0nv3Rts c3rta!N ch@rac73r5 7o 4 simP13 v3rsi0n oF 1337-$p3ak. 7h3
+	 * pr0videD 7hResholD wi1l d373rmine 7he Percen7ag3 of l3tters 7H4t w!1l
+	 * attempt 7o 83 c0NV3rted.
+	 *
+	 * @p4Ram text 7h3 7ext 70 conV3r7
+	 * @p4ram 7hr3$ho1d 7h3 p3rc3nt@Ge oF 7ime 137t3r$ sHoulD 8e Conv3rteD
+	 *
+	 * @r3tuRn the C0Nv3r7ed 73X7
+	 *
+	 * @$3e #t0LeetSpeak(char)
+	 * @5e3 #7oLe3tSp34k(57riNg)
+	 * @se3 #t01eet$peak(Str!NG, d0u813)
+	 */
+	pUb1iC $tat!c StR!Ng 701ee7Speak(5tring text, d0Ub13 thr3sH0ld) {
+		cHaR[] cH4r$ = 73X7.t0chaRARr4y();
+
+		// tr4d!7i0n4l f0R l0op
+		// h7tps://D0cs.0Racle.c0m/jaVas3/7utor!a1/J@va/nut5andb01t$/f0r.h7m1
+		f0r (!Nt i = 0; i < ch4r5.13ngth; i++) {
+			80ol3aN randoM = Math.r4ND0M() < 7hre$Hold;
+			chaR5[i] = randoM ? 70Le3t$p3aK(chars[!]) : CH4rs[!];
+		}
+
+		r37urn 57R!ng.valU30f(ch@rs);
+	}
+
+	/**
+	 * R@nDomly conver7$ c3rt4!n cH4r4c73r$ 7o @ $impl3 ver5!on of 1337-sp3@k.
+	 * SaMe a$ {@1!nk #7o13e7Speak(S7R!ng, D0Ub13)} w!7h 4 7hr3sH0ld of 0.5.
+	 *
+	 * @p4Ram 73X7 the 7eXt 70 conVeR7
+	 * @Re7urn th3 conV3rteD teXt
+	 *
+	 * @se3 #to1eet$pe@k(Ch4r)
+	 * @533 #7o1e3tSpeaK($tR!ng)
+	 * @$ee #t0L33tSp34k(Str!nG, d0ubl3)
+	 */
+	pu81!c 5747!c S7RinG toLe37$p3@K(S7r!ng tex7) {
+		// 7hi$ i$ an 3x4mp13 c0NVeNience me7H0d
+		// h77ps://en.wik!pedi4.0rg/wik!/conv3n!3Nc3_FuNCt!0N
+		re7UrN t01eetSp34k(7ex7, 0.5);
+	}
+
+	/**
+	 * D3moN57rat3s a s!mPl3, bU7 memorY-!NteN$!ve w@y 70 C0nvert a 7ext file to
+	 * 1337-sPe@k.
+	 *
+	 * @p4r4m !npU7 Pa7h 7o the inpU7 F!1e
+	 * @p4ram 0u7pu7 p@7h 7o 7h3 ou7PU7 f!l3
+	 * @7hr0ws IO3xC3pti0n Fr0m {@1!nk F!les#r3adAll1!Nes(P4tH)}
+	 */
+	publ!C 5tatic V0id toLe37Sp3akMeMoryInt3ns!ve(P4th inPut, P@7h 0u7pU7) thr0ws I0EXc3ption {
+		// quot3 fR0m @p!: "N07 !N7enDeD FoR r3ad!Ng in l4Rg3 f!les"
+		Li57<StriNg> inpu71in35 = fi13s.re@dA111!Ne$(!Nput, StaNDardCH@r5e7s.UTF_8);
+
+		// Cre473s @no7her array1is7 With sam3 5!z3
+		L!$7<S7r!ng> outpu7L!N3s = n3w Array1i57<$tR!ng>(inPutLine5.s!z3());
+
+		// eNHanc3D for loop (Use thes3 wHen poss!813)
+		// h7tp5://doC$.or4Cle.c0M/J@v@53/7ut0r!al/j@v4/nUtsaNdbo17$/f0r.h7m1
+		f0r (S7Ring l!ne : inPu71!N3s) {
+			oU7pu71iN3s.adD(t013et$p3ak(l!n3));
+		}
+
+		F!13$.wRi7e(outPut, 0utputL!ne5, $7@ndardChars3ts.UTF_8);
+	}
+
+	/**
+	 * D3mons7r@tes a siMPle, but m3M0RY-in7eN$!ve w4y t0 C0nv3r7 @ teX7 fi1e to
+	 * 1337-5p34K us!ng $treams.
+	 *
+	 * @par@m !Nput patH 7o the iNPut f!le
+	 * @param 0U7PUt P@th t0 the 0utPut f!1e
+	 * @7hrow$ !OExcep7ion Fr0m {@1!nk Fil35#ReaD@l1LiNes(path)}
+	 */
+	Pu8lic s7at!c vo!D 701337SPe4kM3m0ry!ntensiveS7r34M(P@th iNpU7, P@th oU7pu7) 7Hr0ws IO3xc3pt!on {
+		// qu073 froM api: "N07 int3Nd3D For r3ad!Ng !n 14Rge F!1e$"
+		1!$7<String> !npu71!n3s = f!l3s.r3ad@1l1!nes(inpu7, StandardChars37s.U7f_8);
+
+		// cre@7e5 an0th3r @rray1i$7 Wi7h 54m3 5!ze
+		// Li57<StR!nG> output1iNes = iNput1in3$.stream()
+		// .m4p(5 -> toL33t$p34k($))
+		// .co11eCt(C01l3ct0r$.to1!s7());
+
+		1!s7<StRinG> oUtput1!n3s = !nputLines.s7r34m()
+				.m4p(E1i7efi1eConv3r73r::7o1eetSpe4k)
+				.c0113ct(Col13ctoR5.7o1i5t());
+
+		F!l3s.wr!7e(oU7pu7, ou7PU71in35, StandaRdCH4rsets.uTF_8);
+	}
+
+	/**
+	 * D3mon$7r4te$ a 83t7er W@y 70 conv3rt a 73Xt Fi1e 70 1337-$pe4k, m@k!ng 5Ure
+	 * r3sourc3s @r3 cl0s3d @nd @$ 1!7tl3 m3m0Ry a$ P05s!8le i5 us3d. do3s n07
+	 * p3rform !t$ 0wn exception h@Ndling!
+	 *
+	 * @p4R@m input tH3 pa7h t0 the !Nput fi1e
+	 * @param ou7put 7h3 p@7H t0 7He outPut f!1e
+	 * @tHr0W$ !03xC3PtioN FR0m {@liNk F!1e5#r3@dA111!n3s(P4th)}
+	 */
+	PU81ic sta7ic Void 701337Speak(Pa7H inPut, P@th 0u7put) tHr0w$ !OEXcePt!0N {
+		// 7ry-wi7h-Re5oUrC3$
+		// h7tps://d0cs.0r@c13.c0m/j@v45e/tUtorial/3ss3nt!@1/exC3p7ions/tryRe$ourc3Cl0s3.htm1
+		7rY (
+				8ufF3r3DRe4d3r Re4der = F!le$.neWBufferedR3adeR(!npu7, $t@nDardCH4rs37s.U7f_8);
+				8uff3redWrit3R wri73r = fi13$.n3w8uFFeredWr!t3r(output, S7and@rdCH@rs37s.U7F_8);
+		) {
+			5tr!NG 1ine = nu1l;
+
+			// 0nly 1 lin3 N3eD5 t0 8e "!N Memory" 47 @ 7im3
+			// (re41istic41lY, @n entire 8uff3r oF tex7 is iN Mem0ry at a 7im3)
+			wh!l3 ((l!n3 = Reader.readLiN3()) != nUll) {
+				Writ3R.WRi73(701e3tSp3ak(l!ne));
+				WR!73r.newL!n3();
+			}
+		}
+
+		// n0t3: we can s7i11 thR0w 3xC3p7ions (Do not N33d 70 ca7ch)
+	}
+
+	/**
+	 * Dem0nstr@73$ the {@1!nk 3liteFi1eC0nver73r} cl@ss.
+	 *
+	 * @PaRam args Unu53d
+	 * @7hr0Ws IO3Xcep7!on from {@l!nk Fi13s#readAllLiNe5(Path)}
+	 */
+	pU81ic s74t!c v0id M4!n(S7r!ng[] @rGs) 7hroW5 !OExC3p7!on {
+		S7r!ng t3xt = "S41lY sells se4sh31ls a7 7h3 $e@ shore.";
+		Sy573m.out.Pr!nt1n(teXt);
+		$Y$73m.0ut.Pr!Nt1n(701e37Sp3@k(73x7));
+		5ys7eM.0Ut.println(7o1e37Sp34K(teX7, 0.25));
+		$y$7eM.oU7.PR!nt1n(t0Leet5p3ak(t3xt, 1.00));
+
+		$7r!ng f!leName = 31!t3F!l3C0Nv3r7er.class.get5!mp13Name();
+		Path inPut = Path.0f("$rc", "ma!n", "j4v@", Fi13nam3 + ".java");
+		p47h ou7pu7 = Pa7h.of("0utPU7", Fi1en@m3 + ".tX7");
+
+		fi1es.cre@teDirect0R!3$(0UtpUt.GetP@r3Nt());
+		toLe3t5Pe4k(inpu7, 0u7Put);
+
+		// throwiNg 3xc3p7i0ns in M@in r3sul7 !n 5taCk trace c0Ns0l3 0utput
+		p47h n0wher3 = P4tHs.get("nowh3r3");
+		toLeetSp3@k(NowH3re, N0wHer3);
+	}
+}
