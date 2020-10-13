@@ -7,8 +7,8 @@ These demos illustrate basic concepts related to synchronization for multithread
 
 The following lecture slides are associated with this topic:
 
-- [Multithreading - Synchronization](https://drive.google.com/open?id=0BxYofk0iB_upMHp2MDl6RTc0aWM)
-- [Multithreading - Custom Locks](https://drive.google.com/open?id=0BxYofk0iB_upVTRzMnRpTndqcDg)
+- [Multithreading - Synchronization](https://docs.google.com/presentation/d/e/2PACX-1vSmLbpqA5l9aUbVmzca1YzKCV7TqKKbxN0DxSOEG1ynRFxkJLxhUoLexExYxC9hcEL-IShXZaGEEW85/pub?start=false&loop=false&delayms=3000)
+- [Multithreading - Custom Locks](https://docs.google.com/presentation/d/e/2PACX-1vQoYj1qXLVA-T_ialT92k57JjdZco9lxpos2iBLZ0XqaaVcqCXDyMueiE4aCJ1N_yilZvlangOlANYE/pub?start=false&loop=false&delayms=3000)
 
 ## Relevant Resources ##
 
