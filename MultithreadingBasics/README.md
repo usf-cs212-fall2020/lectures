@@ -7,9 +7,10 @@ These demos illustrate basic concepts related to multithreading.
 
 The following lecture slides are associated with this topic:
 
-- [Multithreading - Introduction](https://drive.google.com/open?id=0BxYofk0iB_upbEhHOTFSODFZcDg)
-- [Multithreading - Synchronization](https://drive.google.com/open?id=0BxYofk0iB_upMHp2MDl6RTc0aWM)
-- [Multithreading - Thread Liveness](https://drive.google.com/open?id=0BxYofk0iB_upNkNlWGl5VnU3RVE)
+- [Multithreading - Introduction](https://docs.google.com/presentation/d/e/2PACX-1vS8ND2vrfpyQRmHkPTbaD1J0FJmcuTJ9Fz2hRMXXthKZCQG-TFiSDL_BzKZP_triwmlyHnbPuOvQreR/pub?start=false&loop=false&delayms=3000)
+- [Multithreading - Thread Lifecycle](https://docs.google.com/presentation/d/e/2PACX-1vQ4htqxS-iKhPZIf_Z9oak0MiEYiZm3rRczVdMpLaFDi0Pf4FWCgdmCKCTFEAfZs6mg2nWOZ9-NWGyE/pub?start=false&loop=false&delayms=3000)
+- [Multithreading - Synchronization](https://docs.google.com/presentation/d/e/2PACX-1vSmLbpqA5l9aUbVmzca1YzKCV7TqKKbxN0DxSOEG1ynRFxkJLxhUoLexExYxC9hcEL-IShXZaGEEW85/pub?start=false&loop=false&delayms=3000)
+- [Multithreading - Liveness](https://docs.google.com/presentation/d/e/2PACX-1vT8s8_xfa2GXOUKbQ0BgiMcu4kv53oUKqDI2oPoqVEmc-ei3doKVZbd3mGfFWZxwpCWGz_2UrOxWVkb/pub?start=false&loop=false&delayms=3000)
 
 ## Relevant Resources ##
 
