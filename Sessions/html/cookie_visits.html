@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <title>${title}</title>
+</head>
+
+<body>
+
+<h2>Welcome</h2>
+
+<p>
+  Current visit count: ${visit_count}
+</p>
+
+<p>
+  Last visit date: ${visit_date}
+</p>
+
+<p>
+  Cookies stored: ${cookies}
+</p>
+
+<form method="${method}" action="${action}">
+  <input type="submit" name="ok_cookies" ${enable_on} value="Enable Cookies"/>
+  <input type="submit" name="no_cookies" ${disable_on} value="Disable Cookies"/>
+</form>
+
+<p style="font-size: 10pt; font-style: italic; text-align: center; border-top: 1px solid #eeeeee; margin-bottom: 1ex; margin-top: 3ex;">
+  Page <a href="${url}">${path}</a> generated on ${timestamp} by thread ${thread}.
+</p>
+
+</body>
+</html>

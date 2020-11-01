@@ -1,0 +1,126 @@
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  
+  <title>${title}</title>
+  
+  <!-- See http://www.google.com/fonts for free webfonts -->
+  <link href='http://fonts.googleapis.com/css?family=Overlock:400,900,400italic' rel='stylesheet' type='text/css'>
+
+  <!-- See https://purecss.io/start/ -->
+  <link rel="stylesheet" href="https://unpkg.com/purecss@2.0.3/build/pure-min.css" integrity="sha384-4ZPLezkTZTsojWFhpdFembdzFudphhoOzIunR1wH6g1WQDzCAiPvDyitaK67mp0+" crossorigin="anonymous">
+  
+  <!-- See https://fontawesome.com/start -->
+  <script defer src="https://use.fontawesome.com/releases/v5.14.0/js/all.js"></script>
+  
+  <style>
+    html, button, .pure-g [class *= "pure-u"] {
+     font-family: "Overlock";
+     font-size: 12pt;
+     font-weight: 400;
+    }
+    
+    #layout {
+      padding: 0.5rem;
+    }
+    
+    #message {
+      font-weight: 900;
+    }
+    
+    table {
+        border: none;
+        border-collapse: collapse;
+    }
+    
+    td {
+      text-align: center;
+    }
+    
+    .debug {
+      font-size: 10pt;
+      font-style: italic;
+      
+      text-align: right
+      color: #444444;
+    }
+    
+  </style>
+</head>
+
+<body>
+
+<div id="layout" class="pure-g">
+<div class="content pure-u-1">
+
+<a href="http://www.flickr.com/photos/glsmyth/2452008828/" title="House Of Dreams by George L Smyth, on Flickr">
+  <img src="http://farm4.staticflickr.com/3085/2452008828_b3d4e2836a_m.jpg" width="240" height="166" alt="House Of Dreams">
+</a>
+
+<p>
+  You are famished, and desperately need a good meal. 
+  You found an old house, and are searching for something to eat.
+</p>
+
+<p id="message">${message}</p>
+
+<p>Where do you want to go next?</p>
+
+<form action="${action}" method="post">
+  <table>
+    <tr>
+      <td>&nbsp;</td>
+      <td>
+        <button type="submit" class="pure-button" name="direction" value="NORTH" ${north}>
+          <i class="fa fa-arrow-up"></i>
+          NORTH
+        </button>
+      <td>&nbsp;</td>
+    </tr>
+    <tr>
+      <td>
+        <button type="submit" class="pure-button" name="direction" value="WEST" ${west}>
+          <i class="fa fa-arrow-left"></i>
+          WEST
+        </button>
+      </td>
+      <td>&nbsp;</td>
+      <td>
+        <button type="submit" class="pure-button" name="direction" value="EAST" ${east}>
+          EAST
+          <i class="fa fa-arrow-right"></i>
+        </button>
+      </td>
+    </tr>
+    <tr>
+      <td>&nbsp;</td>
+      <td>
+        <button type="submit" class="pure-button" name="direction" value="SOUTH" ${south}>
+          SOUTH
+          <i class="fa fa-arrow-down"></i>
+        </button>
+      </td>
+      <td>&nbsp;</td>
+    </tr>
+  </table>
+</form>
+
+<p><a href="/">(start over?)</a></p>
+
+<p class="debug">
+  session id: ${session}, 
+  room: ${room}, 
+  direction: ${direction}
+</p>
+
+<p class="debug">
+  Page <a href="${url}">${path}</a> generated on ${timestamp} by thread ${thread}.
+</p>
+
+
+</div>
+</div>
+</body>
+</html>

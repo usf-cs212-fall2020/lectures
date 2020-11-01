@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <title>${title}</title>
+</head>
+
+<body>
+
+<h2>Cookie Warning</h2>
+
+<p>
+  This website uses HTTP cookies to track your number of visits and date of last visit. You can clear these cookies anytime without consequence. Click one of the buttons below to continue.
+</p>
+
+<form method="${method}" action="${action}">
+  <input type="submit" name="ok_cookies" value="Continue with Cookies"/>
+  <input type="submit" name="no_cookies" value="Continue without Cookies"/>
+</form>
+
+<p style="font-size: 10pt; font-style: italic; text-align: center; border-top: 1px solid #eeeeee; margin-bottom: 1ex; margin-top: 3ex;">
+  Page <a href="${url}">${path}</a> generated on ${timestamp} by thread ${thread}.
+</p>
+</body>
+</html>
